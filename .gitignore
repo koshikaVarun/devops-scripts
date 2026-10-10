@@ -15,4 +15,11 @@ Thumbs.db
 .idea/
 
 # Logs
+*.logdb_secret.env 
+# Logs
 *.log
+
+# Secrets & Local Testing
+*.env
+db_secret.env
+empty.txt
