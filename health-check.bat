@@ -1,1 +1,1 @@
-echo "System is healthy" 
+echo "STATUS: Quick ping health check only" 
