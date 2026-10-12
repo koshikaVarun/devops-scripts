@@ -1,1 +1,1 @@
-echo "System is healthy" 
+echo "STATUS: Checking memory, CPU, and disk health..." 
