@@ -1,1 +1,2 @@
 app_secrets.env 
+*.env 
