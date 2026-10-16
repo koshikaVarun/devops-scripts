@@ -1,0 +1,9 @@
+192.168.1.10 - - [16/Oct/2026:10:00:01] "GET /api/v1/health HTTP/1.1" 200 128
+10.0.0.45 - - [16/Oct/2026:10:00:03] "POST /api/v1/auth/login HTTP/1.1" 200 450
+192.168.1.15 - - [16/Oct/2026:10:00:15] "GET /admin/dashboard HTTP/1.1" 404 220
+172.16.0.22 - - [16/Oct/2026:10:01:02] "POST /api/v1/checkout HTTP/1.1" 500 512
+10.0.0.45 - - [16/Oct/2026:10:01:10] "GET /api/v1/cart HTTP/1.1" 200 310
+192.168.1.15 - - [16/Oct/2026:10:01:25] "GET /secret.env HTTP/1.1" 404 180
+172.16.0.22 - - [16/Oct/2026:10:02:00] "POST /api/v1/checkout HTTP/1.1" 503 640
+192.168.1.50 - - [16/Oct/2026:10:02:15] "GET /api/v1/metrics HTTP/1.1" 200 890
+172.16.0.22 - - [16/Oct/2026:10:02:30] "POST /api/v1/checkout HTTP/1.1" 500 512
