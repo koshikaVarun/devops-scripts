@@ -1,0 +1,12 @@
+metadata:
+  cluster: hyd-prod-eks-01
+  environment: production
+  generated_by: SRE Python Pipeline
+capacity:
+  total_nodes: 3
+  total_cpu_cores: 14
+  total_memory_gb: 52
+health_check:
+  all_healthy: false
+  flagged_nodes:
+  - node-us-103

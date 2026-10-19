@@ -1,0 +1,24 @@
+{
+  "environment": "production",
+  "cluster_name": "hyd-prod-eks-01",
+  "nodes": [
+    {
+      "node_id": "node-us-101",
+      "cpu_cores": 4,
+      "memory_gb": 16,
+      "status": "healthy"
+    },
+    {
+      "node_id": "node-us-102",
+      "cpu_cores": 8,
+      "memory_gb": 32,
+      "status": "healthy"
+    },
+    {
+      "node_id": "node-us-103",
+      "cpu_cores": 2,
+      "memory_gb": 4,
+      "status": "degraded"
+    }
+  ]
+}
