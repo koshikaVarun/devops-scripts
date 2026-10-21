@@ -1,2 +1,7 @@
-app_secrets.env 
-*.env 
+.env
+*.env
+.venv/
+*/.venv/
+__pycache__/
+*.pyc
+debug.log
