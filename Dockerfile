@@ -2,12 +2,15 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Step 1: Copy dependencies and install them
+# Dependencies layer (Cached)
 COPY scripts/python/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Step 2: Copy the rest of the application files
+# Application source code layer
 COPY scripts/python/ /app/
 
-# Step 3: Run the system audit script by default
-CMD ["python3", "system_audit.py"]
+# ENTRYPOINT is the fixed executable that always runs
+ENTRYPOINT ["python3", "sre_sentinel.py"]
+
+# CMD provides the default arguments if none are passed
+CMD ["--help"]
